@@ -4,6 +4,9 @@ This project involves building a deep learning model to classify images of words
 
 ## Setting up the Environment
 
+### Download Model and Dataset
+Download the pretrained model and dataset from [here](https://drive.google.com/drive/folders/1SykIvpTbbN3nMo0Vi58tOr2K89HPO9Tt?usp=sharing) and put it in this repository. Extract the dataset and follow the below instruction
+
 ### Create a Virtual Environment
 
 To create a new environment and install secessary packages run the following comand
