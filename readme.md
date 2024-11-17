@@ -34,9 +34,9 @@ python data_processing.py
 
 You can also see these figures in *"fig/"*
 
-![Class Distribution](figs\class_distribution.png)
-![Image Dimention Distribution](figs\image_dimensions_distribution.png)
-![Intensity Distribution](figs\intensity_distribution.png)
+![Class Distribution](figs/class_distribution.png)
+![Image Dimention Distribution](figs/image_dimensions_distribution.png)
+![Intensity Distribution](figs/intensity_distribution.png)
 
 The dataset contains 50 folders, each representing a font, and each folder contains images of words written in that specific font. The data preprocessing step includes:
 
@@ -145,6 +145,6 @@ python inference.py
 * The pretrained model used here (VGG16) is good at understanding natural images but not images of texts. So an model better trained on text data or even an OCR CNN model like (CRNN / Tesseract) can be used to get better performance.
 * By increasing the data sample of each category and using some more image processing algoridthm performance can be further improved
 * A different architecture more suitable for font cliassification (like the one below that is used in this [Paper](https://arxiv.org/pdf/1507.03196) can also be used)
-![DeepFont](figs\DeepFont.png)
+![DeepFont](figs/DeepFont.png)
 
 
